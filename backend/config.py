@@ -24,3 +24,13 @@ CHROMA_PERSIST_DIRECTORY = DATA_DIR / "vector_store"
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
+
+class Colors:
+    FINANCE = '\033[94m'
+    RISK = '\033[91m'
+    ETHICS = '\033[92m'
+    DEVIL = '\033[93m'
+    MODERATOR = '\033[95m'
+    TOOL = '\033[96m'
+    BOLD = '\033[1m'
+    RESET = '\033[0m'
